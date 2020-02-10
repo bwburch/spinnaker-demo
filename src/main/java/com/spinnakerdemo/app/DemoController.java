@@ -30,7 +30,7 @@ public class DemoController {
         } catch (InterruptedException e) {
         }
 
-        return "meeseeks";
-        //return "picklerick";
+        //return "meeseeks";
+        return "picklerick";
     }
 }
