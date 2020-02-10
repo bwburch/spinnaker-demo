@@ -22,7 +22,7 @@ public class DemoController {
 
         response.addHeader("Cache-Control", headerValue);
         response.addHeader("Connection", "close");
-        logger.info("Meeseek");
+        logger.info("Meeseeks");
         return "demo";
     }
 
