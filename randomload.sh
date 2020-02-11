@@ -4,7 +4,7 @@ number=$((RANDOM % range))
 
 while true
 do
-   http 35.245.16.174 | grep background
+   curl 127.0.0.1:8080 | grep background
    echo "Sleeping 0.$number seconds"
    sleep 0.$number
    number=$((RANDOM % range))
